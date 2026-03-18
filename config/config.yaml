@@ -182,3 +182,11 @@ platforms:
   #   name: "36氪"           # 失败原因：接口可能已变更
   # - id: "linuxdo"
   #   name: "LinuxDo"        # 失败原因：接口可能已变更
+# 📧 邮件推送（手动添加）
+email:
+  enable: true
+  email_from: ""
+  email_password: ""
+  email_to: ""
+  email_host: "smtp.qq.com"
+  email_smtp_port: 587
